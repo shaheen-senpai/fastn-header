@@ -11,10 +11,17 @@ cta-button-1: Button
 
 -- lib.navbar2: 
 logo: $assets.files.images.trizwit.jpeg
-cta-text-1: Home
-cta-text-2: Pricing
-cta-text-3: Support
-cta-button-1: login
+cta-text-1: First Link
+cta-text-2: Second Link
+cta-text-3: Third Link
+cta-button-1: Button
+
+-- lib.navbar3: 
+logo: $assets.files.images.trizwit.jpeg
+cta-text-1: First Link
+cta-text-2: Second Link
+cta-text-3: Third Link
+cta-button-1: Button
 
 
 
