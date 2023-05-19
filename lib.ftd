@@ -18,14 +18,19 @@ margin-vertical.px: 20
 src: $navbar.logo
 width.fixed.px: 55
 height: auto
-margin-right.px: 500
 margin-vertical.px: 10
+margin-right.px: 10
 
 -- ftd.text: TRIZWIT
+margin-right.px: 10
+color: #800060
+text-align: center
+margin-vertical.px: 28
 
 -- ftd.row:
 width: fill-container
 height: fill-container
+align-content: right
 
 -- ftd.text: $navbar.cta-text-1
 role: $inherited.types.label-large
@@ -38,7 +43,7 @@ color: $inherited.colors.cta-tertiary.base
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
-margin-horizontal.px: 32
+margin-horizontal.px: 0
 color: $inherited.colors.cta-tertiary.base
 
 -- ftd.text: $navbar.cta-text-3
@@ -60,8 +65,7 @@ border-width.px: 2
 border-radius.px: 4
 border-color: $inherited.colors.cta-secondary.border
 color: $inherited.colors.cta-tertiary.base
-link: https://chatai.com/accounts/login/
-
+link: https://tailblocks.cc/
 
 -- end: ftd.row
 
@@ -86,19 +90,26 @@ string cta-button-1:
 -- ftd.row:
 width: fill-container
 height: hug-content
-padding-horizontal.px: 200
+padding-horizontal.px: 50
 margin-vertical.px: 20
 
 -- ftd.image:
 src: $navbar2.logo
 width.fixed.px: 55
 height: auto
-margin-right.px: 0
 margin-vertical.px: 10
+margin-right.px: 10
+
+-- ftd.text: TRIZWIT
+margin-right.px: 10
+color: #800060
+text-align: center
+margin-vertical.px: 28
 
 -- ftd.row:
 width: fill-container
 height: fill-container
+align-content: left
 
 -- ftd.text: $navbar2.cta-text-1
 role: $inherited.types.label-large
@@ -111,7 +122,7 @@ color: $inherited.colors.cta-tertiary.base
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
-margin-horizontal.px: 32
+margin-horizontal.px: 0
 color: $inherited.colors.cta-tertiary.base
 
 -- ftd.text: $navbar2.cta-text-3
@@ -121,9 +132,10 @@ margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
 
+-- end: ftd.row
 
 -- ftd.row:
-spacing.fixed.px: 8
+align-content: right
 
 -- ftd.text: $navbar2.cta-button-1
 role: $inherited.types.label-large
@@ -132,16 +144,90 @@ padding-vertical.px: 28
 padding-horizontal.px: 32
 border-width.px: 2
 border-radius.px: 4
-margin-left.px: 630
 border-color: $inherited.colors.cta-secondary.border
 color: $inherited.colors.cta-tertiary.base
-link: https://chatai.com/accounts/login/
-
-
--- end: ftd.row
+link: https://tailblocks.cc/
 
 -- end: ftd.row
 
 -- end: ftd.row
 
 -- end: navbar2
+
+
+
+
+
+-- component navbar3:
+ftd.image-src logo:
+string cta-text-1:
+string cta-text-2:
+string cta-text-3:
+string cta-button-1:
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-horizontal.px: 50
+margin-vertical.px: 20
+
+-- ftd.text: $navbar3.cta-text-1
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-right.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar3.cta-text-2
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 0
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar3.cta-text-3
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+
+-- ftd.row:
+
+-- ftd.image:
+src: $navbar3.logo
+width.fixed.px: 55
+height: auto
+margin-vertical.px: 10
+margin-right.px: 10
+margin-left.px: 250
+
+-- ftd.text: TRIZWIT
+color: #800060
+text-align: center
+margin-vertical.px: 28
+margin-right.px: 300
+
+-- ftd.row:
+
+-- ftd.text: $navbar3.cta-button-1
+margin-left.px: 312
+role: $inherited.types.label-large
+text-align: center
+padding-vertical.px: 28
+padding-horizontal.px: 32
+border-width.px: 2
+border-radius.px: 4
+border-color: $inherited.colors.cta-secondary.border
+color: $inherited.colors.cta-tertiary.base
+link: https://tailblocks.cc/
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: navbar3
