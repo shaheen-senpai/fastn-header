@@ -1,0 +1,70 @@
+-- import: shaheen-senpai.github.io/header/assets
+
+
+
+
+
+
+-- component navbar:
+ftd.image-src logo:
+string cta-text-1:
+string cta-text-2:
+string cta-text-3:
+string cta-button-1:
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-horizontal.px: 200
+margin-vertical.px: 20
+
+-- ftd.image:
+src: $navbar.logo
+margin-right.px: 200
+margin-vertical.px: 12
+
+-- ftd.row:
+
+-- ftd.text: $navbar.cta-text-1
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 12
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar.cta-text-2
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 12
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar.cta-text-3
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 12
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.row:
+spacing.fixed.px: 8
+
+-- ftd.text: $navbar.cta-button-1
+role: $inherited.types.label-large
+text-align: center
+padding-vertical.px: 12
+padding-horizontal.px: 32
+border-width.px: 2
+border-radius.px: 4
+border-color: $inherited.colors.cta-secondary.border
+color: $inherited.colors.cta-secondary.text
+link: https://chatai.com/accounts/login/
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: navbar
