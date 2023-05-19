@@ -21,6 +21,8 @@ height: auto
 margin-right.px: 500
 margin-vertical.px: 10
 
+-- ftd.text: TRIZWIT
+
 -- ftd.row:
 width: fill-container
 height: fill-container
@@ -45,8 +47,6 @@ text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
-
-
 
 -- ftd.row:
 spacing.fixed.px: 8
@@ -120,6 +120,7 @@ text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
+
 
 -- ftd.row:
 spacing.fixed.px: 8

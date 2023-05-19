@@ -3,15 +3,11 @@
 
 
 -- lib.navbar: 
-
 logo: $assets.files.images.trizwit.jpeg
-cta-text-1: FirstLink
-cta-text-2: SecondLink
-cta-text-3: ThirdLink
+cta-text-1: First Link
+cta-text-2: Second Link
+cta-text-3: Third Link
 cta-button-1: Button
-
--- end: lib.navbar
-
 
 -- lib.navbar2: 
 logo: $assets.files.images.trizwit.jpeg
@@ -19,6 +15,6 @@ cta-text-1: Home
 cta-text-2: Pricing
 cta-text-3: Support
 cta-button-1: login
--- end: lib.navbar2
+
 
 
