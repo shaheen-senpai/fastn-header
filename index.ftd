@@ -3,12 +3,13 @@
 
 
 -- lib.navbar: 
+
 logo: $assets.files.images.trizwit.jpeg
-cta-text-1: First Link
-cta-text-2: Second Link
-cta-text-3: Third Link
-cta-text-4: Fourth Link
+cta-text-1: FirstLink
+cta-text-2: SecondLink
+cta-text-3: ThirdLink
 cta-button-1: Button
+
 -- end: lib.navbar
 
 
