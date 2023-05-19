@@ -171,6 +171,12 @@ height: hug-content
 padding-horizontal.px: 50
 margin-vertical.px: 20
 
+-- ftd.row:
+width: fill-container
+height: fill-container
+align-content: left
+
+
 -- ftd.text: $navbar3.cta-text-1
 role: $inherited.types.label-large
 text-align: center
@@ -192,8 +198,15 @@ margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
 
+-- end: ftd.row
+
 
 -- ftd.row:
+width: fill-container
+height: fill-container
+align-content: left
+
+
 
 -- ftd.image:
 src: $navbar3.logo
@@ -201,18 +214,21 @@ width.fixed.px: 55
 height: auto
 margin-vertical.px: 10
 margin-right.px: 10
-margin-left.px: 250
+margin-left.px: 38
 
 -- ftd.text: TRIZWIT
 color: #800060
 text-align: center
 margin-vertical.px: 28
-margin-right.px: 300
+margin-right.px: 30
+
+-- end: ftd.row
 
 -- ftd.row:
+align-content: right
 
 -- ftd.text: $navbar3.cta-button-1
-margin-left.px: 312
+margin-left.px: 0
 role: $inherited.types.label-large
 text-align: center
 padding-vertical.px: 28
@@ -222,9 +238,6 @@ border-radius.px: 4
 border-color: $inherited.colors.cta-secondary.border
 color: $inherited.colors.cta-tertiary.base
 link: https://tailblocks.cc/
-
-
--- end: ftd.row
 
 -- end: ftd.row
 
