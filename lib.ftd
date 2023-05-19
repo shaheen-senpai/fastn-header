@@ -1,11 +1,82 @@
 -- import: shaheen-senpai.github.io/header/assets
 
 
-
-
-
-
 -- component navbar:
+ftd.image-src logo:
+string cta-text-1:
+string cta-text-2:
+string cta-text-3:
+string cta-button-1:
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-horizontal.px: 50
+margin-vertical.px: 20
+
+-- ftd.image:
+src: $navbar.logo
+width.fixed.px: 55
+height: auto
+margin-right.px: 500
+margin-vertical.px: 10
+
+-- ftd.text: TRIZWIT
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+
+-- ftd.text: $navbar.cta-text-1
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar.cta-text-2
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.text: $navbar.cta-text-3
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-tertiary.base
+
+-- ftd.row:
+spacing.fixed.px: 8
+
+-- ftd.text: $navbar.cta-button-1
+role: $inherited.types.label-large
+text-align: center
+padding-vertical.px: 28
+padding-horizontal.px: 32
+border-width.px: 2
+border-radius.px: 4
+border-color: $inherited.colors.cta-secondary.border
+color: $inherited.colors.cta-tertiary.base
+link: https://chatai.com/accounts/login/
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: navbar
+
+
+
+
+
+
+-- component navbar2:
 ftd.image-src logo:
 string cta-text-1:
 string cta-text-2:
@@ -19,45 +90,51 @@ padding-horizontal.px: 200
 margin-vertical.px: 20
 
 -- ftd.image:
-src: $navbar.logo
-margin-right.px: 200
-margin-vertical.px: 12
+src: $navbar2.logo
+width.fixed.px: 55
+height: auto
+margin-right.px: 0
+margin-vertical.px: 10
 
 -- ftd.row:
+width: fill-container
+height: fill-container
 
--- ftd.text: $navbar.cta-text-1
+-- ftd.text: $navbar2.cta-text-1
 role: $inherited.types.label-large
 text-align: center
-margin-vertical.px: 12
+margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
 
--- ftd.text: $navbar.cta-text-2
+-- ftd.text: $navbar2.cta-text-2
 role: $inherited.types.label-large
 text-align: center
-margin-vertical.px: 12
+margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
 
--- ftd.text: $navbar.cta-text-3
+-- ftd.text: $navbar2.cta-text-3
 role: $inherited.types.label-large
 text-align: center
-margin-vertical.px: 12
+margin-vertical.px: 28
 margin-horizontal.px: 32
 color: $inherited.colors.cta-tertiary.base
+
 
 -- ftd.row:
 spacing.fixed.px: 8
 
--- ftd.text: $navbar.cta-button-1
+-- ftd.text: $navbar2.cta-button-1
 role: $inherited.types.label-large
 text-align: center
-padding-vertical.px: 12
+padding-vertical.px: 28
 padding-horizontal.px: 32
 border-width.px: 2
 border-radius.px: 4
+margin-left.px: 630
 border-color: $inherited.colors.cta-secondary.border
-color: $inherited.colors.cta-secondary.text
+color: $inherited.colors.cta-tertiary.base
 link: https://chatai.com/accounts/login/
 
 
@@ -67,4 +144,4 @@ link: https://chatai.com/accounts/login/
 
 -- end: ftd.row
 
--- end: navbar
+-- end: navbar2
