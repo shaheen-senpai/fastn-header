@@ -94,6 +94,9 @@ link: https://tailblocks.cc/
 
 
 
+
+
+
 -- component navbar2:
 ftd.image-src logo:
 string logo-test:
@@ -179,6 +182,10 @@ link: https://tailblocks.cc/
 
 -- end: navbar2
   
+
+
+
+
 
 
 
@@ -283,3 +290,101 @@ link: https://tailblocks.cc/
 
 -- end: navbar3
 
+
+
+
+
+
+
+
+-- component navbar4:
+ftd.image-src logo:
+string logo-test:
+string cta-text-1:
+string cta-text-2:
+string cta-text-3:
+string cta-button-1:
+
+
+-- ftd.row:
+width: fill-container
+sticky: true
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-horizontal.px: 50
+margin-vertical.px: 20
+margin-horizontal.px:20
+spacing: space-between
+border-radius.px: 20
+background.solid: $inherited.colors.border
+
+
+-- ftd.image:
+src: $navbar4.logo
+width.fixed.px: 55
+height: auto
+border-radius.px: 20
+margin-vertical.px: 10
+margin-right.px: 10
+
+-- ftd.text: $navbar4.logo-test
+margin-right.px: 10
+color: $inherited.colors.custom.four
+text-align: center
+margin-vertical.px: 28
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+align-content: center
+
+
+-- ftd.text: $navbar4.cta-text-1
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-secondary.text
+
+-- ftd.text: $navbar4.cta-text-2
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 0
+color: $inherited.colors.cta-secondary.text
+
+-- ftd.text: $navbar4.cta-text-3
+role: $inherited.types.label-large
+text-align: center
+margin-vertical.px: 28
+margin-horizontal.px: 32
+color: $inherited.colors.cta-secondary.text
+
+-- end: ftd.row
+
+
+-- ftd.text: $navbar4.cta-button-1
+align-self: center
+role: $inherited.types.label-large
+text-align: center
+padding-vertical.px: 15
+padding-horizontal.px: 24
+border-radius.px: 10
+background.solid: $inherited.colors.custom.seven
+color: #ffffff
+link: https://tailblocks.cc/
+
+
+
+
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+
+-- end: navbar4
