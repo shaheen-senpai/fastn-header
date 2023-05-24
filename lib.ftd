@@ -14,6 +14,7 @@ string cta-button-1:
 width: fill-container
 sticky: true
 
+
 -- ftd.row:
 width: fill-container
 height: hug-content
@@ -22,7 +23,7 @@ margin-vertical.px: 20
 margin-horizontal.px:20
 spacing: space-between
 border-radius.px: 20
-background.solid: #111827
+background.solid: $inherited.colors.border
 
 
 -- ftd.image:
@@ -35,7 +36,7 @@ margin-right.px: 10
 
 -- ftd.text: TRIZWIT
 margin-right.px: 10
-color: #800060
+color: $inherited.colors.custom.four
 text-align: center
 margin-vertical.px: 28
 
@@ -44,26 +45,27 @@ width: fill-container
 height: fill-container
 align-content: right
 
+
 -- ftd.text: $navbar.cta-text-1
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: #ffffff
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar.cta-text-2
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: #ffffff
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar.cta-text-3
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: #ffffff
+color: $inherited.colors.cta-secondary.text
 
 
 -- ftd.text: $navbar.cta-button-1
@@ -72,11 +74,10 @@ text-align: center
 padding-vertical.px: 15
 padding-horizontal.px: 24
 border-radius.px: 10
-background.solid: $inherited.colors.custom.one
+background.solid: $inherited.colors.custom.seven
 color: #ffffff
 link: https://tailblocks.cc/
 
-;; -- end: ftd.row
 
 -- end: ftd.row
 
@@ -101,9 +102,17 @@ string cta-button-1:
 
 -- ftd.row:
 width: fill-container
+sticky: true
+
+-- ftd.row:
+width: fill-container
 height: hug-content
 padding-horizontal.px: 50
 margin-vertical.px: 20
+margin-horizontal.px:20
+spacing: space-between
+border-radius.px: 20
+background.solid: $inherited.colors.border
 
 -- ftd.image:
 src: $navbar2.logo
@@ -115,7 +124,7 @@ margin-right.px: 10
 
 -- ftd.text: TRIZWIT
 margin-right.px: 10
-color: #800060
+color: $inherited.colors.custom.four
 text-align: center
 margin-vertical.px: 28
 
@@ -129,43 +138,46 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar2.cta-text-2
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar2.cta-text-3
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- end: ftd.row
 
 -- ftd.row:
-align-content: right
+align-self: center
 
 -- ftd.text: $navbar2.cta-button-1
 role: $inherited.types.label-large
 text-align: center
-padding-vertical.px: 28
-padding-horizontal.px: 32
-border-width.px: 2
-border-radius.px: 4
-border-color: $inherited.colors.cta-secondary.border
-color: $inherited.colors.cta-tertiary.base
+padding-vertical.px: 15
+padding-horizontal.px: 24
+border-radius.px: 10
+background.solid: $inherited.colors.custom.seven
+color: #ffffff
 link: https://tailblocks.cc/
 
 -- end: ftd.row
 
 -- end: ftd.row
 
+-- end: ftd.row
+
 -- end: navbar2
+  
+
 
 
 
@@ -180,9 +192,18 @@ string cta-button-1:
 
 -- ftd.row:
 width: fill-container
+sticky: true
+
+
+-- ftd.row:
+width: fill-container
 height: hug-content
 padding-horizontal.px: 50
 margin-vertical.px: 20
+margin-horizontal.px:20
+spacing: space-between
+border-radius.px: 20
+background.solid: $inherited.colors.border
 
 -- ftd.row:
 width: fill-container
@@ -195,21 +216,21 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-right.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar3.cta-text-2
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- ftd.text: $navbar3.cta-text-3
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: $inherited.colors.cta-secondary.text
 
 -- end: ftd.row
 
@@ -231,7 +252,7 @@ margin-right.px: 10
 margin-left.px: 38
 
 -- ftd.text: TRIZWIT
-color: #800060
+color: $inherited.colors.custom.four
 text-align: center
 margin-vertical.px: 28
 margin-right.px: 30
@@ -239,19 +260,19 @@ margin-right.px: 30
 -- end: ftd.row
 
 -- ftd.row:
-align-content: right
+align-self: center
 
 -- ftd.text: $navbar3.cta-button-1
-margin-left.px: 0
 role: $inherited.types.label-large
 text-align: center
-padding-vertical.px: 28
-padding-horizontal.px: 32
-border-width.px: 2
-border-radius.px: 4
-border-color: $inherited.colors.cta-secondary.border
-color: $inherited.colors.cta-tertiary.base
+padding-vertical.px: 15
+padding-horizontal.px: 24
+border-radius.px: 10
+background.solid: $inherited.colors.custom.seven
+color: #ffffff
 link: https://tailblocks.cc/
+
+-- end: ftd.row
 
 -- end: ftd.row
 
