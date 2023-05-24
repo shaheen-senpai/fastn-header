@@ -65,8 +65,6 @@ margin-vertical.px: 28
 margin-horizontal.px: 32
 color: #ffffff
 
-;; -- ftd.row:
-;; spacing.fixed.px: 8
 
 -- ftd.text: $navbar.cta-button-1
 role: $inherited.types.label-large
