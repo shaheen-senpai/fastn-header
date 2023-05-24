@@ -4,6 +4,7 @@
 
 -- component navbar:
 ftd.image-src logo:
+string logo-test:
 string cta-text-1:
 string cta-text-2:
 string cta-text-3:
@@ -34,7 +35,7 @@ border-radius.px: 20
 margin-vertical.px: 10
 margin-right.px: 10
 
--- ftd.text: TRIZWIT
+-- ftd.text: $navbar.logo-test
 margin-right.px: 10
 color: $inherited.colors.custom.four
 text-align: center
@@ -95,6 +96,7 @@ link: https://tailblocks.cc/
 
 -- component navbar2:
 ftd.image-src logo:
+string logo-test:
 string cta-text-1:
 string cta-text-2:
 string cta-text-3:
@@ -122,7 +124,7 @@ border-radius.px: 20
 margin-vertical.px: 10
 margin-right.px: 10
 
--- ftd.text: TRIZWIT
+-- ftd.text: $navbar2.logo-test
 margin-right.px: 10
 color: $inherited.colors.custom.four
 text-align: center
@@ -184,6 +186,7 @@ link: https://tailblocks.cc/
 
 
 -- component navbar3:
+string logo-test:
 ftd.image-src logo:
 string cta-text-1:
 string cta-text-2:
@@ -251,7 +254,7 @@ margin-vertical.px: 10
 margin-right.px: 10
 margin-left.px: 38
 
--- ftd.text: TRIZWIT
+-- ftd.text: $navbar3.logo-test
 color: $inherited.colors.custom.four
 text-align: center
 margin-vertical.px: 28
