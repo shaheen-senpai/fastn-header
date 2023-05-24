@@ -13,6 +13,13 @@ width: fill-container
 height: hug-content
 padding-horizontal.px: 50
 margin-vertical.px: 20
+sticky: true
+border-radius.px: 20
+background.solid: #111827
+
+-- ftd.row:
+padding-horizontal.px: 30
+spacing: space-between
 
 -- ftd.image:
 src: $navbar.logo
@@ -37,21 +44,21 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: #ffffff
 
 -- ftd.text: $navbar.cta-text-2
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: $inherited.colors.cta-tertiary.base
+color: #ffffff
 
 -- ftd.text: $navbar.cta-text-3
 role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: $inherited.colors.cta-tertiary.base
+color: #ffffff
 
 -- ftd.row:
 spacing.fixed.px: 8
@@ -64,7 +71,7 @@ padding-horizontal.px: 32
 border-width.px: 2
 border-radius.px: 4
 border-color: $inherited.colors.cta-secondary.border
-color: $inherited.colors.cta-tertiary.base
+color: #ffffff
 link: https://tailblocks.cc/
 
 -- end: ftd.row
@@ -72,6 +79,9 @@ link: https://tailblocks.cc/
 -- end: ftd.row
 
 -- end: ftd.row
+
+-- end: ftd.row
+
 
 -- end: navbar
 
