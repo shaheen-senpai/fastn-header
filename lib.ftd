@@ -1,4 +1,5 @@
 -- import: shaheen-senpai.github.io/header/assets
+-- import: shaheen-senpai.github.io/fastn-cs-tail
 
 
 -- component navbar:
@@ -8,23 +9,27 @@ string cta-text-2:
 string cta-text-3:
 string cta-button-1:
 
+
+-- ftd.row:
+width: fill-container
+sticky: true
+
 -- ftd.row:
 width: fill-container
 height: hug-content
 padding-horizontal.px: 50
 margin-vertical.px: 20
-sticky: true
+margin-horizontal.px:20
+spacing: space-between
 border-radius.px: 20
 background.solid: #111827
 
--- ftd.row:
-padding-horizontal.px: 30
-spacing: space-between
 
 -- ftd.image:
 src: $navbar.logo
 width.fixed.px: 55
 height: auto
+border-radius.px: 20
 margin-vertical.px: 10
 margin-right.px: 10
 
@@ -60,21 +65,20 @@ margin-vertical.px: 28
 margin-horizontal.px: 32
 color: #ffffff
 
--- ftd.row:
-spacing.fixed.px: 8
+;; -- ftd.row:
+;; spacing.fixed.px: 8
 
 -- ftd.text: $navbar.cta-button-1
 role: $inherited.types.label-large
 text-align: center
-padding-vertical.px: 28
-padding-horizontal.px: 32
-border-width.px: 2
-border-radius.px: 4
-border-color: $inherited.colors.cta-secondary.border
+padding-vertical.px: 15
+padding-horizontal.px: 24
+border-radius.px: 10
+background.solid: $inherited.colors.custom.one
 color: #ffffff
 link: https://tailblocks.cc/
 
--- end: ftd.row
+;; -- end: ftd.row
 
 -- end: ftd.row
 
@@ -107,6 +111,7 @@ margin-vertical.px: 20
 src: $navbar2.logo
 width.fixed.px: 55
 height: auto
+border-radius.px: 20
 margin-vertical.px: 10
 margin-right.px: 10
 
@@ -222,6 +227,7 @@ align-content: left
 src: $navbar3.logo
 width.fixed.px: 55
 height: auto
+border-radius.px: 20
 margin-vertical.px: 10
 margin-right.px: 10
 margin-left.px: 38
@@ -254,3 +260,4 @@ link: https://tailblocks.cc/
 -- end: ftd.row
 
 -- end: navbar3
+
